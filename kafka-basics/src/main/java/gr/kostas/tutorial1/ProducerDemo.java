@@ -1,4 +1,4 @@
-package gr.kostas.example.tutorial1;
+package gr.kostas.tutorial1;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;

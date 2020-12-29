@@ -1,4 +1,4 @@
-package gr.kostas.example.tutorial1;
+package gr.kostas.tutorial1;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;

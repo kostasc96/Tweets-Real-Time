@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534055f8-2cbd-47bd-aa61-fea2090342a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kafka-streams-filter-tweets/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-streams-filter-tweets/src/main/java/StreamsFilterTweets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-producer-twitter/src/main/java/tutorial2/TwitterProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer-twitter/src/main/java/tutorial2/TwitterProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/tutorial1/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/gr/kostas/tutorial1/ConsumerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/tutorial1/ConsumerDemoAssignSeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/gr/kostas/tutorial1/ConsumerDemoAssignSeek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/tutorial1/ConsumerDemoGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/gr/kostas/tutorial1/ConsumerDemoGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/tutorial1/ConsumerDemoWithThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/gr/kostas/tutorial1/ConsumerDemoWithThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/tutorial1/ProducerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/gr/kostas/tutorial1/ProducerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/tutorial1/ProducerDemoKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/gr/kostas/tutorial1/ProducerDemoKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/tutorial1/ProducerDemoWithCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/gr/kostas/tutorial1/ProducerDemoWithCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-connect/twitter.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-connect/twitter.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-consumer-elasticsearch/src/main/java/tutorial3/ElasticSearchConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-consumer-elasticsearch/src/main/java/gr/kostas/tutorial3/ElasticSearchConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer-twitter/src/main/java/tutorial2/TwitterProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer-twitter/src/main/java/gr/kostas/tutorial2/TwitterProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer-twitter/target/classes/gr/kostas/example/tutorial2/TwitterProducer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer-twitter/target/classes/gr/kostas/example/tutorial2/TwitterProducer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,20 +72,7 @@
       <recent name="C:\Users\HP\Documents\KafkaProgramming\kafka-basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ElasticSearchConsumer">
-    <configuration name="ConsumerDemoAssignSeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gr.kostas.example.tutorial1.ConsumerDemoAssignSeek" />
-      <module name="KafkaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gr.kostas.example.tutorial1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StreamsFilterTweets">
     <configuration name="ElasticSearchConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tutorial3.ElasticSearchConsumer" />
       <module name="kafka-consumer-elasticsearch" />
@@ -98,6 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamsFilterTweets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamsFilterTweets" />
+      <module name="kafka-streams-filter-tweets" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwitterProducer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gr.kostas.example.tutorial2.TwitterProducer" />
       <module name="kafka-producer-twitter" />
@@ -111,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwitterProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gr.kostas.example.tutorial2.TwitterProducer" />
-      <module name="KafkaProgramming" />
+    <configuration name="TwitterProducer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gr.kostas.tutorial2.TwitterProducer" />
+      <module name="kafka-producer-twitter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gr.kostas.example.tutorial2.*" />
+          <option name="PATTERN" value="gr.kostas.tutorial2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamsFilterTweets" />
+        <item itemvalue="Application.TwitterProducer (2)" />
         <item itemvalue="Application.ElasticSearchConsumer" />
         <item itemvalue="Application.TwitterProducer (1)" />
         <item itemvalue="Application.ProducerDemo (1)" />
-        <item itemvalue="Application.TwitterProducer" />
-        <item itemvalue="Application.ConsumerDemoAssignSeek" />
       </list>
     </recent_temporary>
   </component>
@@ -167,22 +175,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="726" y="169" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609198737344" />
-    <state width="1493" height="206" key="GridCell.Tab.0.bottom" timestamp="1609250976427">
+    <state width="1493" height="276" key="GridCell.Tab.0.bottom" timestamp="1609259102723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609250976427" />
-    <state width="1493" height="206" key="GridCell.Tab.0.center" timestamp="1609250976427">
+    <state width="1493" height="276" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609259102723" />
+    <state width="1493" height="276" key="GridCell.Tab.0.center" timestamp="1609259102723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609250976427" />
-    <state width="1493" height="206" key="GridCell.Tab.0.left" timestamp="1609250976427">
+    <state width="1493" height="276" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609259102723" />
+    <state width="1493" height="276" key="GridCell.Tab.0.left" timestamp="1609259102723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609250976427" />
-    <state width="1493" height="206" key="GridCell.Tab.0.right" timestamp="1609250976427">
+    <state width="1493" height="276" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609259102723" />
+    <state width="1493" height="276" key="GridCell.Tab.0.right" timestamp="1609259102723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609250976427" />
+    <state width="1493" height="276" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609259102723" />
     <state x="584" y="190" key="chooseDestDirectoryDialog" timestamp="1609253805843">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -191,9 +199,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1609231684148" />
-    <state x="418" y="194" key="new project wizard" timestamp="1609253214458">
+    <state x="418" y="194" key="new project wizard" timestamp="1609255146060">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="418" y="194" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1609253214458" />
+    <state x="418" y="194" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1609255146060" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package tutorial2;
+package gr.kostas.tutorial2;
 
 import com.google.common.collect.Lists;
 import com.twitter.hbc.ClientBuilder;
@@ -7,12 +7,10 @@ import com.twitter.hbc.core.Constants;
 import com.twitter.hbc.core.Hosts;
 import com.twitter.hbc.core.HttpHosts;
 import com.twitter.hbc.core.endpoint.StatusesFilterEndpoint;
-import com.twitter.hbc.core.event.Event;
 import com.twitter.hbc.core.processor.StringDelimitedProcessor;
 import com.twitter.hbc.httpclient.auth.Authentication;
 import com.twitter.hbc.httpclient.auth.OAuth1;
 import org.apache.kafka.clients.producer.*;
-import org.apache.kafka.common.protocol.types.Field;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -82,10 +80,10 @@ public class TwitterProducer {
         }
     }
 
-    String consumerKey = "xUT3SmQfNLqd3a33tZ1VI5kqF";
-    String consumerSecret = "kxjuFWXi8Rwn6cp4g7RO2113Xt2Fr7x9uKApuQQj4ksUiNcDse";
-    String token = "2561493132-iT0RXPDF7P2J3wDhgpDU9mm60wp8EFWlIE5PeGO";
-    String secret = "E3km4kDZq8rYhpmPWeIddoIsLzDrY3aC0A3yjVTXoX7WY";
+    String consumerKey = "";
+    String consumerSecret = "";
+    String token = "";
+    String secret = "";
     List<String> terms = Lists.newArrayList("bitcoin");
 
     public Client createTwitterClient(BlockingQueue<String> blockingQueue){

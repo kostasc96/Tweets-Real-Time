@@ -1,4 +1,4 @@
-package tutorial3;
+package gr.kostas.tutorial3;
 
 import com.google.gson.JsonParser;
 import org.apache.http.HttpHost;
@@ -15,7 +15,6 @@ import org.apache.kafka.common.serialization.StringDeserializer;
 import org.elasticsearch.action.bulk.BulkRequest;
 import org.elasticsearch.action.bulk.BulkResponse;
 import org.elasticsearch.action.index.IndexRequest;
-import org.elasticsearch.action.index.IndexResponse;
 import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.client.RestClient;
 import org.elasticsearch.client.RestClientBuilder;
@@ -34,9 +33,9 @@ public class ElasticSearchConsumer {
     public static RestHighLevelClient createClient(){
 
         //replace with your own credentials
-        String hostname = "kafka-demo-twitter-1474964914.eu-central-1.bonsaisearch.net";
-        String username = "f6n744ovel";
-        String password = "88w7cbd0s4";
+        String hostname = "";
+        String username = "";
+        String password = "";
 
         // don't do if you run on local ElasticSearch
         final CredentialsProvider credentialsProvider = new BasicCredentialsProvider();
