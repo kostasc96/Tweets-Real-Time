@@ -1,4 +1,4 @@
-package gr.kostas.example.tutorial2;
+package tutorial2;
 
 import com.google.common.collect.Lists;
 import com.twitter.hbc.ClientBuilder;

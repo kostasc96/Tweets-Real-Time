@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="534055f8-2cbd-47bd-aa61-fea2090342a0" name="Default Changelist" comment="" />
+    <list default="true" id="534055f8-2cbd-47bd-aa61-fea2090342a0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer-twitter/src/main/java/tutorial2/TwitterProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer-twitter/src/main/java/tutorial2/TwitterProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,12 +39,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kafka-connect" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.jsOptions" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Documents\KafkaProgramming\kafka-connect" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="gr.kostas.example.tutorial1" />
     </key>
@@ -175,13 +183,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609250976427" />
+    <state x="584" y="190" key="chooseDestDirectoryDialog" timestamp="1609253805843">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="584" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1609253805843" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1609231684148">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1609231684148" />
-    <state x="418" y="194" key="new project wizard" timestamp="1609232262513">
+    <state x="418" y="194" key="new project wizard" timestamp="1609253214458">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="418" y="194" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1609232262513" />
+    <state x="418" y="194" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1609253214458" />
   </component>
 </project>
